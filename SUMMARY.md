@@ -1,0 +1,17 @@
+# Table of contents
+
+* [GitBook-Python](README.md)
+* [Einleitung](einleitung.md)
+* [Was ist Python?](was-ist-python.md)
+* [Einrichtung der Entwicklungsumgebung](einrichtung-der-entwicklungsumgebung.md)
+* [Erste Schritte mit Python](erste-schritte-mit-python.md)
+* [Variablen und Datentypen](variablen-und-datentypen.md)
+* [Benutzereingaben](benutzereingaben.md)
+* [Kontrollstrukturen (if, else, elif)](kontrollstrukturen-if-else-elif.md)
+* [Schleifen (for, while)](schleifen-for-while.md)
+* [Funktionen](funktionen.md)
+* [Listen, Tupel, Sets und Dictionaries](listen-tupel-sets-und-dictionaries.md)
+* [Dateien lesen und schreiben](dateien-lesen-und-schreiben.md)
+* [Fehlerbehandlung (try/except)](fehlerbehandlung-try-except.md)
+* [Module und Bibliotheken](module-und-bibliotheken.md)
+* [Mini-Projekte](mini-projekte.md)
