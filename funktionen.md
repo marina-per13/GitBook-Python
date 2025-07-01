@@ -1,3 +1,7 @@
+---
+icon: period
+---
+
 # Funktionen
 
 ## Funktionen in Python

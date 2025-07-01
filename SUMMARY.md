@@ -10,4 +10,3 @@
 * [Module und Bibliotheken](module-und-bibliotheken.md)
 * [Objektorientierte Programmierung](objektorientierte-programmierung.md)
 * [Abschlussprojekt](abschlussprojekt.md)
-* [Endseite](endseite.md)
