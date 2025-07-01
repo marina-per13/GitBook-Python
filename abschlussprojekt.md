@@ -5,7 +5,7 @@ coverY: 0
 
 # Abschlussprojekt
 
-## Zufallsspiel mit Zahlen&#x20;
+## Zufallsspiel mit Zahlen
 
 ***
 
@@ -13,137 +13,204 @@ coverY: 0
 
 Wir brauchen das Modul `random` für Zufallszahlen und `time`, um Pausen einzubauen.
 
-{% code overflow="wrap" %}
-```
-pythonKopierenBearbeitenimport randomimport time
-```
-{% endcode %}
-
-***
-
-### Schritt 2: Spielbegrüßung und Regeln anzeigen
-
+<details> <summary>Code anzeigen</summary>
+python
+Kopieren
+Bearbeiten
+import random
+import time
+</details> ````
+Schritt 2: Spielbegrüßung und Regeln anzeigen
 Begrüße den Spieler und erkläre kurz die Spielregeln.
 
+bash
+Kopieren
+Bearbeiten
+<details>
+  <summary>Code anzeigen</summary>
+
+```python
+print("Willkommen zum Zufallsspiel!")
+print("Du hast 5 Versuche, eine Zahl zwischen 1 und 10 zu erraten.")
+print("Für jeden richtigen Tipp bekommst du einen Punkt.")
+print("Viel Erfolg!")
+time.sleep(2)  # Kurze Pause von 2 Sekunden
 ```
-pythonKopierenBearbeitenprint("Willkommen zum Zufallsspiel!")print("Du hast 5 Versuche, eine Zahl zwischen 1 und 10 zu erraten.")print("Für jeden richtigen Tipp bekommst du einen Punkt.")print("Viel Erfolg!")
-time.sleep(2)  # Kurze Pause von 2 Sekunden 
-```
 
-***
-
-### Schritt 3: Punkte und Versuche initialisieren
-
+</details>
+Schritt 3: Punkte und Versuche initialisieren
 Setze die Punkte und maximale Versuche auf 0 bzw. 5.
 
+javascript
+Kopieren
+Bearbeiten
+<details>
+  <summary>Code anzeigen</summary>
+
+```python
+punkte = 0
+max_versuche = 5
 ```
-pythonKopierenBearbeitenpunkte = 0max_versuche = 5 
-```
 
-***
-
-### Schritt 4: Schleife für Versuche starten
-
+</details>
+Schritt 4: Schleife für Versuche starten
 Erstelle eine Schleife, die für jeden Versuch einmal durchläuft.
 
+css
+Kopieren
+Bearbeiten
+<details>
+  <summary>Code anzeigen</summary>
+
+```python
+for versuch in range(1, max_versuche + 1):
+    print(f"\nVersuch {versuch} von {max_versuche}")
 ```
-pythonKopierenBearbeitenfor versuch in range(1, max_versuche + 1):
-    print(f"\nVersuch {versuch} von {max_versuche}")
-```
 
-***
-
-### Schritt 5: Zufallszahl erzeugen
-
+</details>
+Schritt 5: Zufallszahl erzeugen
 Erzeuge für jeden Versuch eine neue Zufallszahl zwischen 1 und 10.
 
+javascript
+Kopieren
+Bearbeiten
+<details>
+  <summary>Code anzeigen</summary>
+
+```python
+    zahl = random.randint(1, 10)
 ```
-pythonKopierenBearbeiten    zahl = random.randint(1, 10)
-```
 
-***
-
-### Schritt 6: Spieler nach Eingabe fragen und prüfen
-
+</details>
+Schritt 6: Spieler nach Eingabe fragen und prüfen
 Fordere den Spieler auf, eine Zahl einzugeben. Prüfe, ob die Eingabe gültig ist (Zahl zwischen 1 und 10).
 
+css
+Kopieren
+Bearbeiten
+<details>
+  <summary>Code anzeigen</summary>
+
+```python
+    while True:
+        try:
+            tipp = int(input("Rate eine Zahl zwischen 1 und 10: "))
+            if 1 <= tipp <= 10:
+                break
+            else:
+                print("Bitte gib eine Zahl zwischen 1 und 10 ein.")
+        except ValueError:
+            print("Das war keine gültige Zahl. Versuch es nochmal.")
 ```
-pythonKopierenBearbeiten    while True:
-        try:
-            tipp = int(input("Rate eine Zahl zwischen 1 und 10: "))
-            if 1 <= tipp <= 10:
-                breakelse:
-                print("Bitte gib eine Zahl zwischen 1 und 10 ein.")
-        except ValueError:
-            print("Das war keine gültige Zahl. Versuch es nochmal.")
-```
 
-***
-
-### Schritt 7: Tipp mit Zufallszahl vergleichen
-
+</details>
+Schritt 7: Tipp mit Zufallszahl vergleichen
 Wenn der Tipp richtig ist, Punkte erhöhen und Erfolg melden.
 
+bash
+Kopieren
+Bearbeiten
+<details>
+  <summary>Code anzeigen</summary>
+
+```python
+    if tipp == zahl:
+        print("Richtig! Du bekommst einen Punkt.")
+        punkte += 1
+    else:
+        print(f"Falsch! Die richtige Zahl war {zahl}.")
 ```
-pythonKopierenBearbeiten    if tipp == zahl:
-        print("Richtig! Du bekommst einen Punkt.")
-        punkte += 1else:
-        print(f"Falsch! Die richtige Zahl war {zahl}.")
-```
 
-***
-
-### Schritt 8: Kurze Pause einbauen
-
+</details>
+Schritt 8: Kurze Pause einbauen
 Damit das Spiel nicht zu schnell ist, füge eine kurze Pause von 1 Sekunde ein.
 
+css
+Kopieren
+Bearbeiten
+<details>
+  <summary>Code anzeigen</summary>
+
+```python
+    time.sleep(1)
 ```
-pythonKopierenBearbeiten    time.sleep(1)
-```
 
-***
-
-### Schritt 9: Punkte nach jedem Versuch anzeigen
-
+</details>
+Schritt 9: Punkte nach jedem Versuch anzeigen
 Zeige nach jedem Versuch den aktuellen Punktestand.
 
+css
+Kopieren
+Bearbeiten
+<details>
+  <summary>Code anzeigen</summary>
+
+```python
+    print(f"Deine Punkte: {punkte}")
 ```
-pythonKopierenBearbeiten    print(f"Deine Punkte: {punkte}")
-```
 
-***
-
-### Schritt 10: Spiel beenden und Gesamtergebnis ausgeben
-
+</details>
+Schritt 10: Spiel beenden und Gesamtergebnis ausgeben
 Nach der Schleife gebe das Endergebnis aus und verabschiede den Spieler.
 
-```
-pythonKopierenBearbeitenprint("\nSpiel beendet!")print(f"Du hast {punkte} von {max_versuche} Punkten erreicht. Gut gemacht!")
+bash
+Kopieren
+Bearbeiten
+<details>
+  <summary>Code anzeigen</summary>
+
+```python
+print("\nSpiel beendet!")
+print(f"Du hast {punkte} von {max_versuche} Punkten erreicht. Gut gemacht!")
 ```
 
-***
+</details>
+Komplett-Code (mit allen 10 Schritten)
+swift
+Kopieren
+Bearbeiten
+<details>
+  <summary>Kompletten Code anzeigen</summary>
 
-## Komplett-Code (mit allen 10 Schritten)
+```python
+import random
+import time
 
-```
-pythonKopierenBearbeitenimport randomimport time
-print("Willkommen zum Zufallsspiel!")print("Du hast 5 Versuche, eine Zahl zwischen 1 und 10 zu erraten.")print("Für jeden richtigen Tipp bekommst du einen Punkt.")print("Viel Erfolg!")
+print("Willkommen zum Zufallsspiel!")
+print("Du hast 5 Versuche, eine Zahl zwischen 1 und 10 zu erraten.")
+print("Für jeden richtigen Tipp bekommst du einen Punkt.")
+print("Viel Erfolg!")
+
 time.sleep(2)
 
-punkte = 0max_versuche = 5for versuch in range(1, max_versuche + 1):
-    print(f"\nVersuch {versuch} von {max_versuche}")
-    zahl = random.randint(1, 10)
+punkte = 0
+max_versuche = 5
 
-    while True:
-        try:
-            tipp = int(input("Rate eine Zahl zwischen 1 und 10: "))
-            if 1 <= tipp <= 10:
-                breakelse:
-                print("Bitte gib eine Zahl zwischen 1 und 10 ein.")
-        except ValueError:
-            print("Das war keine gültige Zahl. Versuch es nochmal.")
+for versuch in range(1, max_versuche + 1):
+    print(f"\nVersuch {versuch} von {max_versuche}")
+    zahl = random.randint(1, 10)
 
-    if tipp == zahl:
-        print("Richtig! Du bekommst einen Punkt.")
-        punkte += 1else:
+    while True:
+        try:
+            tipp = int(input("Rate eine Zahl zwischen 1 und 10: "))
+            if 1 <= tipp <= 10:
+                break
+            else:
+                print("Bitte gib eine Zahl zwischen 1 und 10 ein.")
+        except ValueError:
+            print("Das war keine gültige Zahl. Versuch es nochmal.")
+
+    if tipp == zahl:
+        print("Richtig! Du bekommst einen Punkt.")
+        punkte += 1
+    else:
+        print(f"Falsch! Die richtige Zahl war {zahl}.")
+
+    time.sleep(1)
+    print(f"Deine Punkte: {punkte}")
+
+print("\nSpiel beendet!")
+print(f"Du hast {punkte} von {max_versuche} Punkten erreicht. Gut gemacht!")
 ```
+
+</details>
