@@ -1,2 +1,2 @@
-# Module und Bibliotheken
+# Kontrollstrukturen (if, else, elif)
 
