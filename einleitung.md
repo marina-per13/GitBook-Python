@@ -56,11 +56,3 @@ Ein großer Vorteil von Python ist die **riesige Auswahl an Bibliotheken**. Für
 
 ---
 
-##  Fazit
-
-**Python** ist eine Sprache, die sowohl für **Einsteiger** als auch für **Profis** geeignet ist. Sie ist:
-
-- flexibel  
-- klar strukturiert  
-- leicht zu lernen  
-- unglaublich vielseitig  

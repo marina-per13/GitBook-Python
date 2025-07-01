@@ -12,19 +12,17 @@ description: >-
 <mark style="color:blue;">**Inhaltsverzeichnis**</mark>
 
 * **Einleitung**
-* **Was ist Python?**
-* **Einrichtung der Entwicklungsumgebung**
-* **Erste Schritte mit Python**
-* **Variablen und Datentypen**
-* **Benutzereingaben** &#x20;
-* **Kontrollstrukturen (if, else, elif)**
-* **Schleifen (for, while)**
+* **Grundlagen und Sprachen**
+* **Datentypen**
+* **Operatoren**
+* **Datensammlungen**
 * **Funktionen**
-* **Listen, Tupel, Sets und Dictionaries**
-* **Dateien lesen und schreiben**
-* **Fehlerbehandlung (try/except)**
 * **Module und Bibliotheken**
-* **Mini-Projekte**
+* **Objektorientierte Programmierung**
+* **Abschlussprojekt**
+* **Endseite**
+
+
 
 
 

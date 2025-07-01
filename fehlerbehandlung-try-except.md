@@ -1,2 +1,0 @@
-# Fehlerbehandlung (try/except)
-
