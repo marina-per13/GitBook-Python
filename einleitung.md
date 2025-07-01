@@ -22,19 +22,6 @@ Python kann im Alltag für viele praktische Dinge genutzt werden:
 
 ***
 
-## <mark style="color:blue;">Python in der Bildung</mark>
-
-Auch im Bildungsbereich ist Python sehr nützlich:
-
-* Schüler\*innen und Studierende können einfache Lernhilfen programmieren:
-  * Mathe-Rechner
-  * Vokabeltrainer
-* Technikbegeisterte können mit Python und einem **Raspberry Pi**:
-  * Lichter steuern
-  * Sensoren auslesen\
-    → **Ganz ohne komplizierte Elektronikkenntnisse!**
-
-***
 
 ## <mark style="color:blue;">Starke Bibliotheken</mark>
 
