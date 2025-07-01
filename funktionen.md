@@ -80,7 +80,7 @@ pythonKopierenBearbeitenergebnis = addiere(10, 7)
 print(ergebnis)  # Ausgabe: 17
 ```
 
-💡 Der Unterschied zu `print`:
+ Der Unterschied zu `print`:
 
 * `print` zeigt etwas auf dem Bildschirm an
 * `return` gibt den Wert zurück, mit dem man weiterrechnen oder arbeiten kann
