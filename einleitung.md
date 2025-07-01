@@ -1,6 +1,10 @@
 #  Einführung in Python
 
+
+
+
 **Python** ist eine moderne Programmiersprache, die sich durch ihre **einfache, gut lesbare Syntax** auszeichnet und trotzdem sehr leistungsfähig ist. Ursprünglich wurde sie in den 1990er-Jahren von **Guido van Rossum** entwickelt – mit dem Ziel, eine Sprache zu schaffen, die **logisch aufgebaut** und auch für Menschen **ohne Informatikstudium verständlich** ist.
+
 
 Heute wird Python in vielen Bereichen eingesetzt – von Unternehmen über Universitäten bis hin zu kreativen Projekten zu Hause.
 
@@ -52,7 +56,7 @@ Ein großer Vorteil von Python ist die **riesige Auswahl an Bibliotheken**. Für
 
 ---
 
-## ✅ Fazit
+##  Fazit
 
 **Python** ist eine Sprache, die sowohl für **Einsteiger** als auch für **Profis** geeignet ist. Sie ist:
 
@@ -60,5 +64,3 @@ Ein großer Vorteil von Python ist die **riesige Auswahl an Bibliotheken**. Für
 - klar strukturiert  
 - leicht zu lernen  
 - unglaublich vielseitig  
-
-Mit ein wenig Programmiererfahrung lassen sich viele Aufgaben effizient automatisieren – und das macht nicht nur **produktiver**, sondern auch richtig **Spaß**! 🎉
