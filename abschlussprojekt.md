@@ -1,6 +1,5 @@
 ---
 icon: gamepad-modern
-coverY: 0
 ---
 
 # Abschlussprojekt
