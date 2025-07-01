@@ -43,7 +43,7 @@ if (x > 3) {
 Python: Dynamisch und lesbar
 
 ```
-name = "Eliza"     # String
+name = "John"     # String
 alter = 17         # Integer
 aktiv = True       # Boolean
 liste = [1, 2, 3]  # Liste (mutable)
@@ -52,7 +52,7 @@ liste = [1, 2, 3]  # Liste (mutable)
 JavaScript: Dynamisch, aber mit Eigenheiten
 
 ```
-let name = "Eliza";     // String
+let name = "John";     // String
 let alter = 17;         // Number
 let aktiv = true;       // Boolean
 let liste = [1, 2, 3];  // Array (mutable)
